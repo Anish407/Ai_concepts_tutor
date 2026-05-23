@@ -14,8 +14,11 @@
    ollama pull llama3.2
   ``` 
   <img width="743" height="193" alt="image" src="https://github.com/user-attachments/assets/134a1514-e9da-4fea-b63c-8542e9b898d2" />
-
-
+- Test it:
+  ```powershell
+   ollama run llama3.2
+  ``` 
+  <img width="956" height="209" alt="image" src="https://github.com/user-attachments/assets/ccdb6f01-02f8-496e-bad8-1a347fe4bdd5" />
 
 
 
