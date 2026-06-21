@@ -1,6 +1,8 @@
 
 # Local Inference
 
+[code](./src/local_chat.py)
+
 Local inference means running the AI model on your own machine instead of calling an external cloud API.
 
 - Running model locally = the model is loaded/executed on your machine
