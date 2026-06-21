@@ -37,14 +37,24 @@ def ask_ollama(message: str) -> str:
     return result["message"]["content"]
 
 
+# if __name__ == "__main__":
+
+#     # question = "Explain what local inference means in AI applications."
+#     question = input("Ask something: ")
+#     answer = ask_ollama(question)
+
+#     print("Question:")
+#     print(question)
+#     print()
+#     print("Answer:")
+#     print(answer)
+
 if __name__ == "__main__":
-
-    # question = "Explain what local inference means in AI applications."
-    question = input("Ask something: ")
-    answer = ask_ollama(question)
-
-    print("Question:")
-    print(question)
-    print()
-    print("Answer:")
-    print(answer)
+    while True:
+        question = input("Ask something (or 'exit' to quit): ")
+        if question.lower() == "exit":
+            break
+        answer = ask_ollama(question)
+        print("Answer:")
+        print(answer)
+        print()
