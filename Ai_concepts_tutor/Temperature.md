@@ -9,6 +9,8 @@ It does not make the model smarter.
 It changes how adventurous the model is when choosing the next token.
 
 > Lower temperature means less randomness
+> Lower temperature = more predictable
+> Higher temperature = more adventurous
 
 ## Simple Mental Model
 
