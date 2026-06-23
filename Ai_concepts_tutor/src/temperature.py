@@ -21,11 +21,10 @@ def ask_ollama(message: str) -> str:
         ],
         "stream": False,
         "options": {
-            "temperature": 0.2,
+            "temperature": 2,
         },
     }
 
-    data = json.dumps(payload).encode("utf-8")
     response = requests.post(OLLAMA_URL, json=payload)
     response.raise_for_status()
 
