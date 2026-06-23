@@ -1,5 +1,7 @@
 # Temperature
 
+[Code](./src/temperature.py)
+
 Temperature controls how predictable or varied an LLM's answer is.
 
 It does not make the model smarter.
